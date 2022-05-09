@@ -1,0 +1,40 @@
+CRITICAL - 2021-11-16 02:48:32 --> Invalid file: press_release/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('press_release/i...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('press_release/i...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(31): view('press_release/i...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->pressrelease()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-11-16 02:48:41 --> Invalid file: activity/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('activity/index....')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('activity/index', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(23): view('activity/index')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->activity()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-11-16 02:49:24 --> Invalid file: press_release/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('press_release/i...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('press_release/i...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(31): view('press_release/i...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->pressrelease()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-11-16 02:49:39 --> Invalid file: press_release/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('press_release/i...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('press_release/i...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(31): view('press_release/i...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->pressrelease()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}

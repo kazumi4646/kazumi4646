@@ -1,0 +1,30 @@
+CRITICAL - 2021-11-18 00:26:18 --> Invalid file: information/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('information/ind...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('information/ind...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(27): view('information/ind...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->information()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-11-18 00:47:47 --> Invalid file: pressrelease/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pressrelease/in...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('pressrelease/in...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(31): view('pressrelease/in...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->pressrelease()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-11-18 00:48:40 --> Invalid file: information/index.php
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('information/ind...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('information/ind...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Home.php(27): view('information/ind...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->information()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}

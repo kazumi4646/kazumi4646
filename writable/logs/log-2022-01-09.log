@@ -1,0 +1,7 @@
+CRITICAL - 2022-01-09 04:31:13 --> Call to a member function getRandomName() on null
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Products->create()
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#5 {main}

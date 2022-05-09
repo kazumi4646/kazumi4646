@@ -1,0 +1,66 @@
+CRITICAL - 2021-12-16 07:50:25 --> syntax error, unexpected identifier "jo"
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamppnew\\htd...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-12-16 09:18:11 --> syntax error, unexpected token ";", expecting "("
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/product/i...', Array, true)
+#2 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Products.php(26): view('admin/product/i...', Array)
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Products->index()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#8 {main}
+CRITICAL - 2021-12-16 09:46:18 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamppnew\\htd...')
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Validati...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Validati...')
+#3 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('Config\\Validati...')
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Validation')
+#5 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Config\Services.php(656): config('Validation')
+#7 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::validation(NULL, false)
+#8 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\BaseModel.php(298): CodeIgniter\Config\BaseService::__callStatic('validation', Array)
+#9 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Model.php(101): CodeIgniter\BaseModel->__construct(NULL)
+#10 C:\xamppnew\htdocs\project\website-dei\app\Controllers\Products.php(11): CodeIgniter\Model->__construct()
+#11 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(801): App\Controllers\Products->__construct()
+#12 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#13 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#16 {main}
+CRITICAL - 2021-12-16 10:22:03 --> Call to a member function getRandomName() on null
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Products->create()
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#5 {main}
+CRITICAL - 2021-12-16 10:22:54 --> Call to a member function getRandomName() on null
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Products->create()
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#5 {main}
+CRITICAL - 2021-12-16 10:23:16 --> Call to a member function getRandomName() on null
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Products->create()
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#5 {main}
+CRITICAL - 2021-12-16 10:25:40 --> Array callback must have exactly two elements
+#0 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Products->create()
+#1 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#2 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamppnew\htdocs\project\website-dei\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xamppnew\htdocs\project\website-dei\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xamppnew\\htd...')
+#5 {main}
