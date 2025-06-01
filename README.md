@@ -27,4 +27,4 @@
 
 - 📫 Email: alfiardiansyah464gmail.com  
 - 💼 LinkedIn: www.linkedin.com/in/alfi-ardiansyah-384a1b251 
-- 🧑‍💻 Portfolio: not yet added, stay tune
+- 🧑‍💻 Portfolio: https://kazumi4646.github.io/MY-PORTOFOLIO/
